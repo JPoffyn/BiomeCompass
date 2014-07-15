@@ -19,10 +19,10 @@ apply plugin: 'forge'
 
 version = "1.7.10-0.1"
 group= "com.morolas.biocomp" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "BiomeCompass"
+archivesBaseName = "biocomp"
 
 minecraft {
-    version = "1.7.10-10.13.0.1180"
+    version = "1.7.10-10.13.0.1170"
     assetDir = "eclipse/assets"
 }
 
