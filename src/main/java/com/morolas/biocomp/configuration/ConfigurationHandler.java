@@ -1,6 +1,6 @@
 package com.morolas.biocomp.configuration;
 
-import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.common.config.*;
 import java.io.File;
 
 public class ConfigurationHandler

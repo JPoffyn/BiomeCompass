@@ -12,7 +12,6 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 public class BiomeCompass
 {
-
     @Mod.Instance(Reference.MOD_ID)
     public static BiomeCompass instance;
 
