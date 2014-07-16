@@ -1,6 +1,7 @@
 package com.morolas.biocomp;
 
 import com.morolas.biocomp.handler.ConfigurationHandler;
+import com.morolas.biocomp.init.ModBlocks;
 import com.morolas.biocomp.init.ModItems;
 import com.morolas.biocomp.proxy.IProxy;
 import com.morolas.biocomp.reference.Reference;
@@ -25,9 +26,12 @@ public class BiomeCompass
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Pre Initialisation Complete!");
 
         ModItems.init();
+
+        ModBlocks.init();
+
+        LogHelper.info("Pre Initialisation Complete!");
     }
 
     @Mod.EventHandler

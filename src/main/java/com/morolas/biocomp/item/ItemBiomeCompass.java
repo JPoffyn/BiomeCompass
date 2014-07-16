@@ -6,6 +6,6 @@ public class ItemBiomeCompass extends ItemBioComp
     {
         super();
         this.setUnlocalizedName("biomeCompass");
+        this.maxStackSize = 1;
     }
-
 }
