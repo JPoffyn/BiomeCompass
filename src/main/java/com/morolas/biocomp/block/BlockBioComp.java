@@ -1,5 +1,6 @@
 package com.morolas.biocomp.block;
 
+import com.morolas.biocomp.creativetab.CreativeTabBioComp;
 import com.morolas.biocomp.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class BlockBioComp extends Block
     public BlockBioComp(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabBioComp.BioComp_TAB);
     }
 
     public BlockBioComp()

@@ -1,5 +1,6 @@
 package com.morolas.biocomp.item;
 
+import com.morolas.biocomp.creativetab.CreativeTabBioComp;
 import com.morolas.biocomp.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemBioComp extends Item
     public ItemBioComp()
     {
         super();
+        this.setCreativeTab(CreativeTabBioComp.BioComp_TAB);
     }
 
     @Override
